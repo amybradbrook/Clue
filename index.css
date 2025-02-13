@@ -1,0 +1,43 @@
+body{
+    font-family: "Jomhuria";
+    padding:0;
+    margin:0;
+}
+
+.bg{
+    background-image: url(Background.png) !important;
+    background-size: cover;
+    background-position: center;
+    height:100vh;
+    border:3px;
+}
+
+h1{
+    font-size: 25vh;
+    color:white;
+    line-height: 1;
+}
+
+.largerTitle{
+    font-size: 30vh;
+    line-height: 0.8;
+}
+.red{
+    color: #E53D3D
+}
+
+.titleContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.2em;
+    padding:10px;
+    pointer-events: none;
+    transform: rotate(-10deg);
+}
+
+.MagnifyingGlass{
+    height:12vh;
+    align-self: center;
+    width: auto
+}
